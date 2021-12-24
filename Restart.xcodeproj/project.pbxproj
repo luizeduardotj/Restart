@@ -15,6 +15,7 @@
 		386B7BD52773C00B00D7AFE0 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 386B7BD42773C00B00D7AFE0 /* success.m4a */; };
 		388528482774D46E0015B86C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388528472774D46E0015B86C /* OnboardingView.swift */; };
 		3885284A2774D4920015B86C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388528492774D4920015B86C /* HomeView.swift */; };
+		3891D4EB2776316F00D0B7C4 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891D4EA2776316F00D0B7C4 /* AudioPlayer.swift */; };
 		38DDE37A277523EE0076F9C4 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DDE379277523EE0076F9C4 /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		388528462774D3C10015B86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		388528472774D46E0015B86C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		388528492774D4920015B86C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3891D4EA2776316F00D0B7C4 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		38DDE379277523EE0076F9C4 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 		388528452774D0B10015B86C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				3891D4EA2776316F00D0B7C4 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				3885284A2774D4920015B86C /* HomeView.swift in Sources */,
 				386B7BC52773BF7100D7AFE0 /* RestartApp.swift in Sources */,
 				388528482774D46E0015B86C /* OnboardingView.swift in Sources */,
+				3891D4EB2776316F00D0B7C4 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
